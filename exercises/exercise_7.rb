@@ -18,4 +18,5 @@ puts "new_store #{new_store}"
 puts @store10.valid?
 puts @store10.errors.messages[:name]
 puts @store10.errors.messages[:annual_revenue]
+puts @store10.errors.messages[:at_least_men_or_women]
 
